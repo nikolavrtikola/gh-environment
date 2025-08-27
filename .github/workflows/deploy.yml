@@ -39,6 +39,6 @@ jobs:
     steps:
       - name: Output information
         run: |        
-          echo "...Deploying Some changes for a new commit to check!!!"
+          echo "...Deploying Some changes for a new commit to check environment-> testing!!!"
           echo "MONGODB_USERNAME: ${{env.MONGODB_USERNAME}}"
           echo "MONGODB_DB_NAME: ${{env.MONGODB_DB_NAME}}"
